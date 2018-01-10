@@ -11,6 +11,6 @@
   "dependencies": {
     "mocha": "^4.1.0",
     "mongoose": "^4.13.9",
-    "nodemon": "^1.14.8"
+    "nodemon": "^1.14.9"
   }
 }
