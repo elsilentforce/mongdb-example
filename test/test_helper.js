@@ -11,5 +11,8 @@ mongoose.connection
   });
 
 beforeEach(() => {
-  mongoose.connection.collections.users.drop();
+  mongoose.connection.collections.users.drop((done) => {
+    // Ready to run next test !!
+    done();
+  });
 });
