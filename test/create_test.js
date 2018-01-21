@@ -5,7 +5,7 @@ describe('Creating records', () => {
   it('saves a user', (done) => {
     const john = new User({ name: 'John' });
     john.save()
-      .then(() = > {
+      .then(() => {
         // Has John has been saved successfully?
         assert(!john.isNew);
         done();
