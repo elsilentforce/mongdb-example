@@ -6,9 +6,9 @@ describe('Creating records', () => {
     const john = new User({ name: 'John' });
     john.save()
       .then(() => {
-        // Has John has been saved successfully?
+        // Has John been saved successfully?
         assert(!john.isNew);
-        done();
       });
+      done();
   });
 });
